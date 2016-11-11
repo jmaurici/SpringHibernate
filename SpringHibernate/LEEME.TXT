@@ -1,0 +1,17 @@
+Comentario sobre las librerías, he optado por copiar todos los jar en
+WEB-INF/lib y una vez alli, las añadi con "Configure Build Path".
+Tener en cuenta que hay muchas librerías en juego, me ha dado bastante
+trabajo ponerlas donde están, ya que a medida que iba probando
+iban saliendo los famosos ClassNotFound, para luego buscarlas, instalarlas. 
+Luego cuando parecia que ya iba a funcionar, aparece lo de la versión de
+Hibernate,  tuve que bajar de la 5 a la 4,  por una clase que 
+no aparecía, en fin, les cuento esto para que se ahorren el trabajo...
+ 
+Se pueden hacer cambios al proyecto, como
+
+  - trabajar con postgres
+  - intentar ver lo del gestor de dependencias gradle.
+  - empezar a ver los ficheros XML (tengo ejemplos)
+  
+  Un saludo
+  Mauricio
